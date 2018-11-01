@@ -52,7 +52,7 @@ else if(player1Name.value === '' && player2Name.value===''){
     const y = player2KoKAayo();
     setTimeout(x,3000);
     setTimeout(y,3500);
-    setTimeout(showDiv,7000);
+    setTimeout(showDiv,6500);
     if(x === y){
         document.getElementById('firstWinner').textContent = "It's a DRAW";
         document.getElementById('secondWinner').textContent = "It's a DRAW";
