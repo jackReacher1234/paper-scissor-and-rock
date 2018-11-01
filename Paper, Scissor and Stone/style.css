@@ -1,0 +1,147 @@
+#title{
+    color: purple;
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    background: linear-gradient(to right, rgb(7, 233, 141), rgb(251, 219, 122));
+}
+
+.players .player1{
+    border: 1px solid black;
+    height: 400px;
+    width: 500em;
+}
+
+.players .player2{
+    border: 1px solid black;
+    height: 400px;
+    width: 500em;
+}
+
+.players{
+    display: flex;
+    justify-content: center;
+}
+
+#playerName{
+    display: flex;
+    justify-content: space-around;
+}
+
+#buttomBar{
+    display: flex;
+    justify-content: center;
+}
+
+#start{
+    height: 50px;
+    width: 100px;
+}
+
+#newGame{
+    display: flex;
+    justify-content: center;
+}
+
+#firstWinner{
+    width: 500em;
+    display: none;
+}
+
+#secondWinner{
+    width: 500em;
+    display: none;
+}
+
+.animate1{
+    height: 400px;
+    width: 500em;
+    animation: game1 5s step-start;
+}
+
+@keyframes game1{
+    0%{
+        background-image: url(Img/Scissor.jpg);         
+        background-size: contain;         
+    }
+    10%{
+        background-image: url(Img/Paper.jpg);
+    }
+    20%{
+        background-image: url(Img/Rock.jpg);
+    }
+    30%{
+        background-image: url(Img/Paper.jpg);
+    }
+    40%{
+        background-image: url(Img/Scissor.jpg);         
+        background-size: contain;      
+    }
+    50%{
+        background-image: url(Img/Rock.jpg);
+    }
+    60%{
+        background-image: url(Img/Scissor.jpg);         
+        background-size: contain;     
+    }
+    70%{
+        background-image: url(Img/Paper.jpg);
+    }
+    80%{
+        background-image: url(Img/Rock.jpg);
+    }
+    90%{
+        background-image: url(Img/Scissor.jpg);         
+        background-size: contain;    
+    }
+    100%{
+        background-image: url(Img/Paper.jpg);
+    }
+}
+.animate2{
+    height: 400px;
+    width: 500em;
+    animation: game2 5s step-start;
+}
+
+@keyframes game2{
+    0%{
+        background-image: url(Img/Paper.jpg);
+    }
+    10%{
+        background-image: url(Img/Scissor.jpg);         
+        background-size: contain;    
+    }
+    20%{
+        background-image: url(Img/Paper.jpg);
+    }
+    30%{
+        background-image: url(Img/Scissor.jpg);         
+        background-size: contain;      
+    }
+    40%{
+        background-image: url(Img/Rock.jpg);
+    }
+    50%{
+        background-image: url(Img/Paper.jpg);
+    }
+    60%{
+        background-image: url(Img/Rock.jpg);
+    }
+    70%{
+        background-image: url(Img/Scissor.jpg);         
+        background-size: contain;    
+    }
+    80%{
+        background-image: url(Img/Paper.jpg);
+    }
+    90%{
+        background-image: url(Img/Rock.jpg);
+    }
+    100%{
+        background-image: url(Img/Scissor.jpg);         
+        background-size: contain;        
+    }
+}
